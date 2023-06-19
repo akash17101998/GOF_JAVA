@@ -1,0 +1,11 @@
+package Abstract_Factory_Design;
+
+public class TomatoSauce implements Sauce{
+    public TomatoSauce(){
+        prepareSauce();
+    }
+    @Override
+    public void prepareSauce(){
+        System.out.println("Preparing tomato sauce");
+    }
+}
